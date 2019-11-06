@@ -1,24 +1,72 @@
 {
-  "posts": [
+  "employees": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Mick Jagger",
+      "departmentId": 4,
+      "computerID": 2
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Paul McCartney",
+      "departmentId": 2,
+      "computerID": 1
+    },
+    {
+      "id": 3,
+      "name": "Eric Clapton",
+      "departmentId": 3,
+      "computerID": 3
+    },
+    {
+      "id": 4,
+      "name": "Jimi Hendrix",
+      "departmentId": 1,
+      "computerID": 4
     }
   ],
-  "comments": [
+  "departments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Sales"
+    },
+    {
+      "id": 2,
+      "name": "Human Resources"
+    },
+    {
+      "id": 3,
+      "name": "IT"
+    },
+    {
+      "id": 4,
+      "name": "Customer Service"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "computers": [
+    {
+      "id": 1,
+      "brand": "Mac",
+      "type": "laptop",
+      "serial_number": "94825900008"
+    },
+    {
+      "id": 2,
+      "brand": "Mac",
+      "type": "desktop",
+      "serial_number": "2231791894"
+    },
+    {
+      "id": 3,
+      "brand": "HP",
+      "type": "laptop",
+      "serial_number": "02823370805"
+    },
+    {
+      "id": 4,
+      "brand": "Mac",
+      "type": "laptop",
+      "serial_number": "7777737981"
+    }
+  ]
 }
